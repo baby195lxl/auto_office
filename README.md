@@ -1,1 +1,1 @@
-# auto_office
+# selfuse_auto_office
