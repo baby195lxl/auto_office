@@ -2,25 +2,25 @@ import xlrd
 
 data = xlrd.open_workbook('/home/romo/test/test_xlread.xls') #open the workbook
 
-#print(data.sheet_loaded(0)) #load '0' sheet
+#print(data.sheet_loaded(0)) # load '0' sheet
 
-#data.unload_sheet(0) #unload '0' shhet
+#data.unload_sheet(0) # unload '0' shhet
 
 #print(data.sheet_loaded(0))
 
-#print(data.sheets()) #show all sheet
+#print(data.sheets()) # show all sheet
 
-#print(data.sheets()[0]) #show '0' sheet
+#print(data.sheets()[0]) # show '0' sheet
 
-#print(data.sheet_by_index(0)) #show sheet by the number of sheet
+#print(data.sheet_by_index(0)) # show sheet by the number of sheet
 
-#print(data.sheet_by_name('first')) #show sheet by the name of sheet
+#print(data.sheet_by_name('first')) # show sheet by the name of sheet
 
-#print(data.sheet_names()) #show all name of sheets
+#print(data.sheet_names()) # show all name of sheets
 
-#print(data.nsheets) #show how many sheet in the workbook
+#print(data.nsheets) # show how many sheet in the workbook
 
-sheet = data.sheet_by_index(0) #get the sheet(0)
+sheet = data.sheet_by_index(0) # get the sheet(0)
 
 ########################################## operate the rows ###########################################
 
